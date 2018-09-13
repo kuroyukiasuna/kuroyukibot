@@ -1,0 +1,12 @@
+D:\dev\mjbot\kuroyukibot\bin\Debug\netcoreapp2.0\kuroyukibot.deps.json
+D:\dev\mjbot\kuroyukibot\bin\Debug\netcoreapp2.0\kuroyukibot.dll
+D:\dev\mjbot\kuroyukibot\bin\Debug\netcoreapp2.0\kuroyukibot.pdb
+D:\dev\mjbot\kuroyukibot\obj\Debug\netcoreapp2.0\kuroyukibot.csproj.CoreCompileInputs.cache
+D:\dev\mjbot\kuroyukibot\obj\Debug\netcoreapp2.0\kuroyukibot.AssemblyInfoInputs.cache
+D:\dev\mjbot\kuroyukibot\obj\Debug\netcoreapp2.0\kuroyukibot.AssemblyInfo.cs
+D:\dev\mjbot\kuroyukibot\obj\Debug\netcoreapp2.0\kuroyukibot.dll
+D:\dev\mjbot\kuroyukibot\obj\Debug\netcoreapp2.0\kuroyukibot.pdb
+D:\dev\mjbot\kuroyukibot\obj\Debug\netcoreapp2.0\kuroyukibot.csprojAssemblyReference.cache
+D:\dev\mjbot\kuroyukibot\bin\Debug\netcoreapp2.0\csvhelper.dll
+D:\dev\mjbot\kuroyukibot\bin\Debug\netcoreapp2.0\csvhelper.pdb
+D:\dev\mjbot\kuroyukibot\obj\Debug\netcoreapp2.0\kuroyukibot.csproj.CopyComplete
