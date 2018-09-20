@@ -478,6 +478,16 @@ namespace kuroyukibot
                     {
                         result = addMeal(groupId, msgary[2], msgary[3]);
                     }
+                    else if(msgary.Length > 4)
+                    {
+                        int i = 3;
+                        while(i < msgary.Length)
+                        {
+                            addMeal(groupId, msgary[2], msgary[i]);
+                            i++;
+                            result = "选项添加完成";
+                        }
+                    }
                     else
                     {
                         result = "消息格式错误, 应为/wte add listname choice";
