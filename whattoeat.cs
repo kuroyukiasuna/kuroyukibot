@@ -4,7 +4,6 @@ using System.IO;
 using System.Text;
 using System.Linq;
 using Newtonsoft.Json.Linq;
-using Newtonsoft.Json;
 using MyCommonHelper.FileHelper;
 
 namespace kuroyukibot
