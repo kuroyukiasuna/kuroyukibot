@@ -206,6 +206,15 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "CSharpVitamins/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/CSharpVitamins.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CSharpVitamins.dll": {}
+        }
+      },
       "csvhelper/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
@@ -214,6 +223,28 @@
         },
         "runtime": {
           "bin/placeholder/csvhelper.dll": {}
+        }
+      },
+      "ED2K/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/ED2K.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ED2K.dll": {}
+        }
+      },
+      "libAniDB.NET/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "CSharpVitamins": "1.0.0",
+          "ED2K": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/libAniDB.NET.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/libAniDB.NET.dll": {}
         }
       }
     }
@@ -704,17 +735,33 @@
         "newtonsoft.json.nuspec"
       ]
     },
+    "CSharpVitamins/1.0.0": {
+      "type": "project",
+      "path": "../../anidb-dot-net-master/CSharpVitamins/CSharpVitamins.csproj",
+      "msbuildProject": "../../anidb-dot-net-master/CSharpVitamins/CSharpVitamins.csproj"
+    },
     "csvhelper/1.0.0": {
       "type": "project",
       "path": "../csvhelper/csvhelper.csproj",
       "msbuildProject": "../csvhelper/csvhelper.csproj"
+    },
+    "ED2K/1.0.0": {
+      "type": "project",
+      "path": "../../anidb-dot-net-master/ED2K/ED2K.csproj",
+      "msbuildProject": "../../anidb-dot-net-master/ED2K/ED2K.csproj"
+    },
+    "libAniDB.NET/1.0.0": {
+      "type": "project",
+      "path": "../../anidb-dot-net-master/libAniDB.NET/libAniDB.NET.csproj",
+      "msbuildProject": "../../anidb-dot-net-master/libAniDB.NET/libAniDB.NET.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.NETCore.App >= 2.0.0",
       "Newtonsoft.Json >= 11.0.2",
-      "csvhelper >= 1.0.0"
+      "csvhelper >= 1.0.0",
+      "libAniDB.NET >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -747,6 +794,9 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
+            "D:\\dev\\anidb-dot-net-master\\libAniDB.NET\\libAniDB.NET.csproj": {
+              "projectPath": "D:\\dev\\anidb-dot-net-master\\libAniDB.NET\\libAniDB.NET.csproj"
+            },
             "D:\\dev\\mjbot\\csvhelper\\csvhelper.csproj": {
               "projectPath": "D:\\dev\\mjbot\\csvhelper\\csvhelper.csproj"
             }

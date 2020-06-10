@@ -10,3 +10,9 @@ D:\dev\mjbot\kuroyukibot\obj\Debug\netcoreapp2.0\kuroyukibot.csprojAssemblyRefer
 D:\dev\mjbot\kuroyukibot\bin\Debug\netcoreapp2.0\csvhelper.dll
 D:\dev\mjbot\kuroyukibot\bin\Debug\netcoreapp2.0\csvhelper.pdb
 D:\dev\mjbot\kuroyukibot\obj\Debug\netcoreapp2.0\kuroyukibot.csproj.CopyComplete
+D:\dev\mjbot\kuroyukibot\bin\Debug\netcoreapp2.0\CSharpVitamins.dll
+D:\dev\mjbot\kuroyukibot\bin\Debug\netcoreapp2.0\ED2K.dll
+D:\dev\mjbot\kuroyukibot\bin\Debug\netcoreapp2.0\libAniDB.NET.dll
+D:\dev\mjbot\kuroyukibot\bin\Debug\netcoreapp2.0\libAniDB.NET.pdb
+D:\dev\mjbot\kuroyukibot\bin\Debug\netcoreapp2.0\CSharpVitamins.pdb
+D:\dev\mjbot\kuroyukibot\bin\Debug\netcoreapp2.0\ED2K.pdb

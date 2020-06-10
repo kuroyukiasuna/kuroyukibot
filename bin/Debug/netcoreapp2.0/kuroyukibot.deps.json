@@ -9,7 +9,9 @@
       "kuroyukibot/1.0.0": {
         "dependencies": {
           "Newtonsoft.Json": "11.0.2",
-          "csvhelper": "1.0.0"
+          "csvhelper": "1.0.0",
+          "libAniDB.NET": "1.0.0",
+          "System.Web.Extensions": "4.0.0.0"
         },
         "runtime": {
           "kuroyukibot.dll": {}
@@ -23,9 +25,36 @@
           }
         }
       },
+      "CSharpVitamins/1.0.0": {
+        "runtime": {
+          "CSharpVitamins.dll": {}
+        }
+      },
       "csvhelper/1.0.0": {
         "runtime": {
           "csvhelper.dll": {}
+        }
+      },
+      "ED2K/1.0.0": {
+        "runtime": {
+          "ED2K.dll": {}
+        }
+      },
+      "libAniDB.NET/1.0.0": {
+        "dependencies": {
+          "CSharpVitamins": "1.0.0",
+          "ED2K": "1.0.0"
+        },
+        "runtime": {
+          "libAniDB.NET.dll": {}
+        }
+      },
+      "System.Web.Extensions/4.0.0.0": {
+        "runtime": {
+          "System.Web.Extensions.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.1073.0"
+          }
         }
       }
     }
@@ -43,8 +72,28 @@
       "path": "newtonsoft.json/11.0.2",
       "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
     },
+    "CSharpVitamins/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "csvhelper/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ED2K/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "libAniDB.NET/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Web.Extensions/4.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }
